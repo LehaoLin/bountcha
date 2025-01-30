@@ -1,4 +1,4 @@
-## BounTCHA prototype
+## BounTCHA
 
 ### How to run the prototype
 
