@@ -1,6 +1,13 @@
 ## Prompt Generation ##
 
-You need to generate a prompt to instruct a video model to generate a subsequent video based on the last frame of a given natural video.  You need to ensure that the expanded video should differ significantly from the previous video to make a big difference between raw video and AI-extended part.The focus should be on quickly generating movements that differ from natural laws and common sense, ensuring that humans can react quickly without causing drastic changes in the visuals.
+### Video Understanding Prompt Generation ###
+1. Summarize the video in a short sentence with simple words
+2. Summarize all the events in a concise way. Don't describe appearance, background or atmosphere.
+3. Describe the video in detail, covering all events, actions and camera motions, also describe the characters' appearance and the background.
+
+Summarize 5 keywords about this video.
+
+### Video Extension Prompt Generation ###
 
 We will provide:
 
